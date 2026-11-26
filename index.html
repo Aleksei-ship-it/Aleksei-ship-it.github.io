@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ToolPick — redirecting…</title>
+<link rel="canonical" href="https://aleksei-ship-it.github.io/toolpick-site/">
+<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0f172a;color:#e2e8f0;font:16px/1.6 system-ui,sans-serif;text-align:center}a{color:#5eead4}</style>
+</head><body><div><strong>ToolPick</strong><p>Moving to the current site… <a href="/toolpick-site/">Open it now</a></p></div>
+<script>
+(function () {
+  var path = location.pathname;
+  if (path.indexOf('/toolpick-site/') === 0) return;
+  var target = '/toolpick-site' + (path === '/' ? '/' : path);
+  location.replace(target + location.search + location.hash);
+})();
+</script></body></html>
